@@ -13,7 +13,7 @@ LONG_DESCRIPTION = 'A python package to assist planetary scientists incorporate 
 
 # Setting up
 setup(
-    name="astroai",
+    name="planetaryai",
     version=VERSION,
     author="Michael-Holland-Dev (Michael Holland)",
     author_email="<michael.w.holland@gmail.com>",
@@ -22,7 +22,6 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     install_requires=[
-        'astropy',
         'pandas',
         'torch',
         'torchvision'
